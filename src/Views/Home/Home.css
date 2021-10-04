@@ -1,0 +1,152 @@
+#home {
+  overflow-y: hidden;
+}
+
+.home__started {
+  display: flex;
+}
+
+.home__started img {
+  width: 55%;
+}
+
+.home__started__content {
+  background-color: #ff747e;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__started__content p {
+  font-size: 2rem;
+  font-weight: 600;
+  animation-delay: 1s;
+}
+
+.home__started__content button {
+  padding: 10px;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #f5c6a5;
+  transition: all 0.6s;
+  animation-delay: 1s;
+}
+
+.home__started__content button:hover {
+  background-color: #a2416b;
+}
+
+.home__courses img {
+  width: 100%;
+  height: 150px;
+}
+
+.home__courses .card-body {
+  padding: 0;
+}
+
+.home__courses .card-body .course__content {
+  padding: 1rem;
+}
+
+.home__courses .card-body h4 {
+  font-weight: bold;
+}
+
+.home__courses .card-body button {
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff7777;
+  transition: all 0.5s;
+}
+
+.home__courses .card-body button:hover {
+  background-color: #a2416b;
+}
+
+.home__courses .btn__view__more {
+  background-color: #f5c6a5;
+  padding: 8px;
+  color: black;
+  border-radius: 5px;
+  transition: all 0.6s;
+}
+
+.home__courses .btn__view__more:hover {
+  opacity: 0.6;
+}
+
+#student {
+  background-color: #f7f8fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#student .student__top .student__content {
+  border: 0.25px solid rgba(0, 0, 0, 0.226);
+  height: 250px;
+  margin: 20px 0;
+  padding: 20px 15px;
+  background: white;
+}
+
+#student .student__top .student__content .student__name p {
+  font-weight: bold;
+}
+
+#student .student__top .student__content .student__name p span {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background: #852747;
+  margin-right: 15px;
+}
+
+#student .student__bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#student .student__bottom .student__bottom__left {
+  border-right: 0.25px solid rgba(0, 0, 0, 0.2);
+}
+
+#student .student__bottom .student__bottom__item {
+  padding: 20px 80px;
+}
+
+#student .student__bottom .student__bottom__item h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#student .student__bottom .student__bottom__item p {
+  font-size: 1rem;
+}
+
+#student .student__bottom .student__bottom__item button {
+  background: #ff7777;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-weight: 700;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#student .student__bottom .student__bottom__item button:hover {
+  background: #a2416b;
+}

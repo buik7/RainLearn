@@ -1,0 +1,36 @@
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #f5c6a5;
+  padding-left: 2%;
+}
+
+.header__logo img {
+  width: auto;
+  height: 100px;
+  transform: scale(2.3);
+}
+
+.header__search_select {
+  font-size: 1rem !important;
+  /* padding: 10px !important; */
+  width: 40vw;
+  border-radius: 10px;
+  /* border: 1px solid #ff7777; */
+}
+
+.header__auth button {
+  padding: 8px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff7777;
+  transition: all 0.5s;
+}
+
+.header__auth button:hover {
+  background-color: #a2416b;
+}
